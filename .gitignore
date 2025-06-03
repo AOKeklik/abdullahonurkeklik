@@ -1,0 +1,35 @@
+# Log files
+*.log
+npm-debug.log
+yarn-error.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env*
+
+# IDE/editor configs
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/.idea
+/.vscode
+/.nova
+/.fleet
+/.zed
+/auth.json
+
+# Node + build artifacts
+node_modules/
+public/build/
+public/hot/
+public/storage/
+storage/*.key
+storage/pail
+vendor/
+
+# Laravel-specific
+Homestead.json
+Homestead.yaml
