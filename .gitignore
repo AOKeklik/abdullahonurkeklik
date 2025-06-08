@@ -23,9 +23,7 @@ Thumbs.db
 
 # Node + build artifacts
 node_modules/
-public/build/
-public/hot/
-public/storage/
+public/
 storage/*.key
 storage/pail
 vendor/
@@ -33,3 +31,19 @@ vendor/
 # Laravel-specific
 Homestead.json
 Homestead.yaml
+
+
+
+# Ignore image and video files globally
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.svg
+**/*.webp
+**/*.ico
+**/*.mp4
+**/*.mov
+**/*.avi
+**/*.mkv
+**/*.webm
