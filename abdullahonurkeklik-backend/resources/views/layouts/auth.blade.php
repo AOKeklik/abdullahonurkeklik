@@ -1,7 +1,7 @@
     <!--=================
 	    	HEADER
 	=================-->
-	    @include("layoutS.header")
+	    @include("layouts.header")
 	<!--=================
 	    	HEADER
 	=================-->
